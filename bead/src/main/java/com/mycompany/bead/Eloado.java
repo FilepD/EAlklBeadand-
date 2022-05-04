@@ -9,5 +9,36 @@ package com.mycompany.bead;
  * @author Fábián Levente
  */
 public class Eloado {
+    String név;
+    int időtartam;
+    String téma;
+
+    public Eloado(String név, int időtartam, String téma) {
+        this.név = név;
+        this.időtartam = időtartam;
+        this.téma = téma;
+    }
+
+    public String getNév() {
+        return név;
+    }
+
+
+    public int getIdőtartam() {
+        return időtartam;
+    }
+
+    public void setIdőtartam(int időtartam) {
+        this.időtartam = időtartam;
+    }
+
+    public String getTéma() {
+        return téma;
+    }
+
+    public void setTéma(String téma) {
+        this.téma = téma;
+    }
+    
     
 }
