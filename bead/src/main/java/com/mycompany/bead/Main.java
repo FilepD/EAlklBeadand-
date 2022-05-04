@@ -14,7 +14,14 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Eloado e1 = new Eloado("jani",2,"tanc");
+         Eloado e2 = new Eloado("panni",3,"tanc");
+         Eloado e3 = new Eloado("pali",4,"tanc");
+         Rendezveny r  = new Rendezveny("bp", "tanc", "asd");
+         r.setRendezvenyEloado(e1);
+         r.setRendezvenyEloado(e2);
+         r.setRendezvenyEloado(e3);
+         System.out.println("");
     }
     
 }

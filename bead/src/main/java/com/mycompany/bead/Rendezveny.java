@@ -38,18 +38,15 @@ public class Rendezveny {
 /*setter*/ 
     public void setRendezvenyEloado(Eloado e){
         this.e.add(e);
-    }
-
-    public void setHelyszin(String helyszin) {
-        this.helyszin = helyszin;
-    }
-
-    public void setNev(String nev) {
-        this.nev = nev;
-    }
-
-    public void setDatum(String datum) {
-        this.datum = datum;
-    }
+    }  
     
+    public void Rendez(){
+       /* for (int i = 0; i < e.size(); i++) {
+            
+        }*/
+    }
+
+    public void Rendez(String valami){
+        
+    }
 }
