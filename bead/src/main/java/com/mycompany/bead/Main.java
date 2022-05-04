@@ -22,6 +22,10 @@ public class Main {
          r.setRendezvenyEloado(e2);
          r.setRendezvenyEloado(e3);
          System.out.println("");
+         Konfer k =new Konfer();
+         r.setRendezvenyEloado(k);
+         System.out.println("");
+         
     }
     
 }

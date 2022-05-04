@@ -8,6 +8,10 @@ package com.mycompany.bead;
  *
  * @author Fábián Levente
  */
-public class Konfer {
+public class Konfer extends Eloado {
+
+    public Konfer() {
+      super ("konfer",1,"átvezető");
+    }
     
 }

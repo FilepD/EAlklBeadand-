@@ -10,7 +10,7 @@ package com.mycompany.bead;
  */
 public class Eloado {
     private String név;
-    private int időtartam;
+    private int időtartam; // percben
     private String téma;
 
     public Eloado(String név, int időtartam, String téma) {
