@@ -9,9 +9,9 @@ package com.mycompany.bead;
  * @author Fábián Levente
  */
 public class Eloado {
-    String név;
-    int időtartam;
-    String téma;
+    private String név;
+    private int időtartam;
+    private String téma;
 
     public Eloado(String név, int időtartam, String téma) {
         this.név = név;
