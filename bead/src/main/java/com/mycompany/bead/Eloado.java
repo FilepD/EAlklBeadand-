@@ -8,12 +8,13 @@ package com.mycompany.bead;
  *
  * @author Fábián Levente
  */
-public class Eloado implements Beszel {
+public class Eloado extends Ember implements Beszel  {
     private String név;
     private int időtartam; // percben
     private String téma;
 
     public Eloado(String név, int időtartam, String téma) {
+        super("feher",1);
         this.név = név;
         this.időtartam = időtartam;
         this.téma = téma;

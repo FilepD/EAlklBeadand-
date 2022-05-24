@@ -12,6 +12,8 @@ public class Ember {
     String szín;
     int súly;
 
+    
+    
     public Ember(String szín, int súly) {
         this.szín = szín;
         this.súly = súly;
