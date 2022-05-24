@@ -4,6 +4,8 @@
  */
 package com.mycompany.bead;
 
+import java.io.File;
+
 /**
  *
  * @author Fábián Levente
@@ -28,6 +30,8 @@ public class Main {
          jsonMove j = new jsonMove();
          j.move();
          System.out.println("baszódj meg");
+         File f = new File("newjson.json");
+         System.out.println(f.getAbsolutePath());
     }
     
 }
