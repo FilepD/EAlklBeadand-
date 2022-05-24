@@ -1,0 +1,16 @@
+{
+    "emberek":
+    [
+        {
+            "nev":"janos",
+            "kor":"11",
+            "rassz":"cigany",
+            "magassag":"200"
+        },{
+            "nev":"dzsenifer",
+            "kor":"9",
+            "rassz":"olahcigany",
+            "magassag":"160"
+        }
+    ]
+}
