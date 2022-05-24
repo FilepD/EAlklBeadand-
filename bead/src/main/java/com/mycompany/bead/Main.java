@@ -31,7 +31,7 @@ public class Main {
          jsonMove j = new jsonMove();
          j.move();
          System.out.println("teszt üzenet");
-         File f = new File("newjson.json");
+         File f = new File("newjson");
          System.out.println(f.getAbsolutePath());
          System.out.println(Paths.get("").toAbsolutePath());
     }
