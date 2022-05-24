@@ -29,7 +29,7 @@ public class Main {
          System.out.println("");
          jsonMove j = new jsonMove();
          j.move();
-         System.out.println("baszódj meg");
+         System.out.println("teszt üzenet");
          File f = new File("newjson.json");
          System.out.println(f.getAbsolutePath());
     }
