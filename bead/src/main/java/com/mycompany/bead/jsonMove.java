@@ -18,7 +18,7 @@ public class jsonMove {
         
         JSONParser parser = new JSONParser();
         try{
-            JSONArray obj = (JSONArray) parser.parse(new FileReader("\\src\\bead\\newjson.json"));
+            JSONArray obj = (JSONArray) parser.parse(new FileReader("\\newjson.json"));
             for (Object o : obj) {
                 JSONObject jso = (JSONObject)o;
                 String nev = (String)jso.get("nev");

@@ -5,6 +5,7 @@
 package com.mycompany.bead;
 
 import java.io.File;
+import java.nio.file.Paths;
 
 /**
  *
@@ -32,6 +33,7 @@ public class Main {
          System.out.println("teszt üzenet");
          File f = new File("newjson.json");
          System.out.println(f.getAbsolutePath());
+         System.out.println(Paths.get("").toAbsolutePath());
     }
     
 }
