@@ -14,7 +14,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Eloado e1 = new Eloado("jani",2,"tanc");
+         Eloado e1 = new Eloado("jani",2,"tanc");
          Eloado e2 = new Eloado("panni",3,"tanc");
          Eloado e3 = new Eloado("pali",4,"tanc");
          Rendezveny r  = new Rendezveny("bp", "tanc", "asd");
@@ -25,7 +25,9 @@ public class Main {
          Konfer k =new Konfer();
          r.setRendezvenyEloado(k);
          System.out.println("");
-         
+         jsonMove j = new jsonMove();
+         j.move();
+         System.out.println("baszódj meg");
     }
     
 }
